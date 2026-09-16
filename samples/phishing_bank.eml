@@ -1,0 +1,36 @@
+From: "Chase Bank Alerts" <alerts@chase-secure-verify.com>
+To: customer@example.com
+Subject: Your Chase account has been compromised - Verify now or lose access
+Date: Wed, 16 Sep 2026 03:41:09 -0800
+Message-ID: <alert9921@chase-secure-verify.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Return-Path: <no-reply@chase-secure-verify.com>
+Reply-To: <support@chase-secure-verify.com>
+X-Mailer: SendGrid
+Received: from mail.chase-secure-verify.com (45.33.32.156)
+        by mx.example.com with SMTP
+        for <customer@example.com>; Wed, 16 Sep 2026 03:41:05 -0800
+Authentication-Results: mx.example.com;
+       spf=none (no SPF record found) smtp.mailfrom=chase-secure-verify.com;
+       dkim=none;
+       dmarc=none
+
+Dear Chase Customer,
+
+SECURITY ALERT: We have detected unauthorized login attempts on your Chase Online Banking account from an unrecognized device in Russia.
+
+To protect your account and prevent unauthorized transfers, you must verify your identity within 1 hour.
+
+Verify your account here: http://chase-secure-verify.com/login?session=8827hd72&verify=true
+
+If you do not verify within 1 hour, we will be forced to freeze your account and all pending transactions will be cancelled.
+
+Additionally, please download and complete the attached verification form:
+See: https://docs.google.com/uc?export=download&id=FAKEID12345
+
+Your account security is our top priority. Failure to act will result in permanent account suspension.
+
+Chase Online Security Team
+JPMorgan Chase Bank, N.A.
+383 Madison Avenue, New York, NY 10179

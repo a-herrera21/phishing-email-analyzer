@@ -1,0 +1,49 @@
+From: "Amazon Web Services" <aws-billing@amazon.com>
+To: admin@mycompany.com
+Subject: Your AWS bill for August 2026 is now available
+Date: Tue, 02 Sep 2026 09:15:44 +0000
+Message-ID: <billing-aug2026-invoice-0019283@amazon.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Return-Path: <aws-billing@amazon.com>
+Reply-To: <aws-billing@amazon.com>
+X-SES-Outgoing: amazon.com
+X-Mailer: Amazon SES
+Received: from amazonses.com (email-smtp.us-east-1.amazonaws.com [54.240.8.200])
+        by mx.mycompany.com with ESMTPS id billing123
+        for <admin@mycompany.com>; Tue, 02 Sep 2026 09:15:41 +0000
+Authentication-Results: mx.mycompany.com;
+       spf=pass (amazon.com: domain of aws-billing@amazon.com designates 54.240.8.200 as permitted sender) smtp.mailfrom=amazon.com;
+       dkim=pass header.i=@amazon.com header.s=awskey2023 header.b=XyZaBcDe;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=amazon.com
+
+Hello,
+
+Your AWS bill for August 2026 is now available. Here is a summary of your charges:
+
+Account: 123456789012
+Billing Period: August 1 - August 31, 2026
+Total Amount Due: $142.37
+
+Service Breakdown:
+  Amazon EC2:           $89.14
+  Amazon S3:            $23.88
+  Amazon RDS:           $19.75
+  Data Transfer:         $9.60
+
+Your payment will be automatically charged to the credit card on file on September 17, 2026.
+
+To view your detailed bill and usage reports, log in to the AWS Billing Console:
+https://console.aws.amazon.com/billing/home
+
+To update your payment method or billing preferences:
+https://console.aws.amazon.com/billing/home#/paymentmethods
+
+If you have questions about your bill, visit AWS Support:
+https://aws.amazon.com/support
+
+Thank you for using Amazon Web Services.
+
+Amazon Web Services, Inc.
+410 Terry Ave. North, Seattle, WA 98109
+aws.amazon.com/contact-us

@@ -1,0 +1,43 @@
+From: "GitHub" <noreply@github.com>
+To: developer@example.com
+Subject: [GitHub] A third-party OAuth application has been added to your account
+Date: Mon, 14 Sep 2026 16:02:33 +0000
+Message-ID: <01000191abc123def456@github.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Return-Path: <noreply@github.com>
+Reply-To: <noreply@github.com>
+X-GitHub-Sender: github
+X-Mailer: GitHub Notifications
+Received: from mail-io1-f100.google.com (mail-io1-f100.google.com [209.85.166.100])
+        by mx.example.com with ESMTPS id abc123
+        for <developer@example.com>; Mon, 14 Sep 2026 16:02:31 +0000
+Authentication-Results: mx.example.com;
+       spf=pass (google.com: domain of noreply@github.com designates 209.85.166.100 as permitted sender) smtp.mailfrom=noreply@github.com;
+       dkim=pass header.i=@github.com header.s=20230601 header.b=AbCdEfGh;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=github.com
+
+Hey developer,
+
+A third-party OAuth application (VSCode GitHub Extension) has been authorized on your GitHub account.
+
+Application: VSCode GitHub Extension
+Authorized by: developer
+Authorized on: September 14, 2026 at 4:02 PM UTC
+Permissions granted: Read access to code, Read access to email addresses
+
+If you authorized this application, no further action is needed.
+
+If you did NOT authorize this application, please revoke access immediately:
+https://github.com/settings/connections/applications
+
+You can review all authorized OAuth applications at:
+https://github.com/settings/applications
+
+Thanks,
+The GitHub Team
+
+---
+You're receiving this email because an OAuth application was authorized on your GitHub account.
+Manage notification preferences: https://github.com/settings/notifications
+GitHub, Inc., 88 Colin P Kelly Jr Street, San Francisco, CA 94107

@@ -1,0 +1,32 @@
+From: "PayPal Security Team" <security@paypa1-support.com>
+To: victim@example.com
+Subject: URGENT: Your PayPal account has been limited - Action required within 24 hours
+Date: Mon, 14 Sep 2026 08:23:11 -0500
+Message-ID: <fake123@paypa1-support.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Return-Path: <bounce@smtp-bulk-mailer-99.ru>
+Reply-To: <collect@paypa1-support.com>
+X-Mailer: PHPMailer 5.2.22
+Received: from smtp-bulk-mailer-99.ru (smtp-bulk-mailer-99.ru [185.220.101.47])
+        by mx.example.com with SMTP id abc123
+        for <victim@example.com>; Mon, 14 Sep 2026 08:23:09 -0500
+Authentication-Results: mx.example.com;
+       spf=fail (sender IP is 185.220.101.47) smtp.mailfrom=paypa1-support.com;
+       dkim=none (message not signed);
+       dmarc=fail action=none header.from=paypa1-support.com
+
+<html>
+<body>
+<p>Dear Valued Customer,</p>
+<p><strong>URGENT NOTICE:</strong> We have detected suspicious activity on your PayPal account. Your account has been <strong>LIMITED</strong> and will be <strong>permanently suspended</strong> within 24 hours unless you verify your information immediately.</p>
+<p>You must verify your account now to avoid permanent suspension:</p>
+<p><a href="http://paypa1-secure-login.xyz/verify?id=8847362&token=abc123def">Click here to verify your PayPal account immediately</a></p>
+<p>If you fail to complete verification within 24 hours, your account will be permanently closed and all funds will be frozen.</p>
+<p>You can also visit: http://tinyurl.com/paypal-verify-account</p>
+<p>Confirm your identity here: http://185.220.101.47/paypal/login.php</p>
+<p>Regards,<br>
+PayPal Security Team<br>
+PayPal Inc., 2211 North First Street, San Jose, CA 95131</p>
+</body>
+</html>
